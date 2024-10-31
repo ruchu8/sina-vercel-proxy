@@ -51,7 +51,7 @@ export default function Home() {
             value={inputValue}
             onChange={e => setInputValue(e.target.value)}>
           </input>
-          <a className={styles.a} href={imageUrl}>💎https://sina-vercel.wuuconix.link/{imageUrl}</a>
+          <a className={styles.a} href={imageUrl}>💎https://sina.592.us.kg/{imageUrl}</a>
           <img className={styles.logo}
             src={imageUrl}
             alt="sina img"
