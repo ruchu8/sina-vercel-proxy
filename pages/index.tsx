@@ -8,7 +8,7 @@ import { useDebounce } from 'use-debounce'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [ inputValue, setInputValue ] = useState("https://tvax3.sinaimg.cn/large/007YVyKcly1hc4hgfvo76j30rs0rsdp7.jpg")
+  const [ inputValue, setInputValue ] = useState("https://tvax3.sinaimg.cn/large/006gkh44ly1fw72suamovj31hc0u0qsq.jpg")
   const [ debouncedInputVal ] = useDebounce(inputValue, 500)
 
   const imageUrl = useMemo(() => inputValue.split("/").slice(3).join("/"), [ debouncedInputVal ])
